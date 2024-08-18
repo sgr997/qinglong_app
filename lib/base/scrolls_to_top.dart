@@ -137,6 +137,10 @@ class _FakeScrollContext extends ScrollContext {
 
   @override
   TickerProvider get vsync => _FakeTickerProvider();
+  
+  @override
+  // TODO: implement devicePixelRatio
+  double get devicePixelRatio => throw UnimplementedError();
 }
 
 class _FakeTickerProvider extends TickerProvider {

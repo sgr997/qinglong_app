@@ -86,7 +86,7 @@ flutter:
     - assets/images/
     - assets/codemirror.html
 flutter_app_name:
-  name: "青龙客户端"
+  name: "青龙面板"
 
 flutter_icons:
   image_path_android: "assets/images/ql.png"

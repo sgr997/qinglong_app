@@ -86,8 +86,9 @@ class ThemeViewModel extends ChangeNotifier {
 
   get themeMode => _themeMode;
 
+final ThemeData theme = ThemeData();
   ThemeData getWhiteTheme() {
-    return ThemeData.light().copyWith(
+    return theme.copyWith(
       pageTransitionsTheme: const PageTransitionsTheme(
         builders: {
           TargetPlatform.android: CupertinoPageTransitionsBuilder(),
